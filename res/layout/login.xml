@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:id="@+id/textView1" android:text="Sparta Parent Portal"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_height="wrap_content" android:layout_width="match_parent"
+		android:layout_alignParentTop="true" android:gravity="center"></TextView>
+
+	<LinearLayout android:id="@+id/loginforms"
+		android:layout_below="@id/textView1" android:orientation="vertical"
+		android:layout_centerInParent="true" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+
+		<EditText android:layout_width="match_parent" android:id="@+id/loginemail"
+			android:hint="Email address..." android:inputType="textEmailAddress" 
+			android:layout_height="wrap_content">
+			<requestFocus></requestFocus>
+		</EditText>
+
+		<EditText android:layout_width="match_parent" android:id="@+id/loginpassword"
+			android:hint="Password..." android:inputType="textPassword"
+			android:layout_height="wrap_content">
+		</EditText>
+
+		<CheckBox android:id="@+id/loginrememberme"
+			android:layout_height="wrap_content" android:text="Remember Me"
+			android:layout_width="match_parent"></CheckBox>
+
+	</LinearLayout>
+
+	<RelativeLayout android:id="@+id/bottomrel"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true">
+		<Button android:id="@+id/loginbutton" android:text="Login"
+			android:layout_width="match_parent" android:layout_height="wrap_content"></Button>
+	</RelativeLayout>
+</RelativeLayout>

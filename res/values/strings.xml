@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="user_agent">GenesisApp/0.0</string>
+	<string name="base_url">https://parents.sparta.org/sparta/parents</string>
+	<string name="home_url">https://parents.sparta.org/sparta/parents/home/home.jsp</string>
+	<string name="login_url">https://parents.sparta.org/sparta/j_security_check
+	</string>
+	<string name="app_name">Genesis</string>
+</resources>
